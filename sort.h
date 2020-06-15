@@ -23,6 +23,7 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void insertion_swap(listint_t *item_1, listint_t *item_2);
+void selection_sort(int *array, size_t size);
 void swapp(int *arr, int st, int nd, int size);
 int lomut(int *arr, int low, int high, size_t size);
 void simplify(int *arr, int low, int high, size_t size);
